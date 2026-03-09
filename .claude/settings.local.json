@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s http://localhost:8080/api/categories -o /c/Users/tangj/AppData/Local/Temp/resp.json)",
+      "Read(//c/Users/tangj/AppData/Local/Temp/**)",
+      "Bash(mysql:*)",
+      "Bash(curl:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(netstat -ano)",
+      "Bash(xargs -I{} taskkill //PID {} //F)",
+      "Bash(mvn compile:*)"
+    ]
+  }
+}

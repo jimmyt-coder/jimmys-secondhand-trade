@@ -1,0 +1,24 @@
+# Backend
+backend/target/
+backend/uploads/
+backend/src/main/resources/application-local.properties
+*.jar
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.production
+frontend/.env.local
+
+# AWS
+*.pem
+.aws/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
